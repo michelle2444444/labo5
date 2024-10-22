@@ -1,0 +1,27 @@
+ul#lista-categorias {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+ul#lista-categorias li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+ul#lista-categorias li img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+ul#lista-categorias li span {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
